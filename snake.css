@@ -1,0 +1,67 @@
+canvas{
+ z-index: 1;
+}
+#menu{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: #7d747461;
+  z-index: 999;
+}
+#button{
+  position: absolute;
+  background: #0a8c81;
+  width: 220px;
+  height: 170px;
+  top: 115px;
+  left: 90px;
+  border-radius: 35px;
+}
+#main{
+  position: absolute;
+  top:60px;
+  left:75px;
+  background: #ff3a7d;
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+}
+#main:hover{
+  border-radius: 25px;
+  border: none;
+  background: #ff0258;
+}
+#main:active{
+  border-radius: 35px;
+  border: none;
+  background: #980034;
+}
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+#pause{
+  top:15px;
+  left:365px;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  z-index: 1;
+  border: none;
+
+}
+#block{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+}
+#check{
+  position: absolute;
+  top:105px;
+  left:45px;
+  width: 120px;
+  height: 70px;
+  border-radius: 15px;
+}

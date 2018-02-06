@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React Snake</title>
+    <meta http-equiv='Content-type' content='text/html; charset=utf-8'>
+    <link rel="stylesheet" type="text/css" href="snake.css">
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+  </head>
+  <body>
+    <div id='game'>
+        <div id='menu'>
+            <div id='button'>
+                <button id='main' onclick="play()">Start</button>
+                <div id='check'>
+                    <input type='checkbox' checked='checked' id='wall'>
+                    <label for='wall'>Wall Collision</label>
+                </div>
+            </div>
+        </div>
+        <div id='block'>
+            <canvas id='canvas' width="400" height="400"></canvas>
+            <button id='pause' onclick="pause()">||</div>
+        </div>
+    </div>
+    <script src="snake.js"></script>
+  </body>
+</html>
